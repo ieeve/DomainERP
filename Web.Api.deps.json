@@ -35,10 +35,10 @@
           "Serilog.AspNetCore": "3.4.0",
           "Swashbuckle.AspNetCore": "5.6.1",
           "Web.Application": "1.0.0",
-          "Web.BLL": "1.0.0",
           "Web.Dao": "1.0.0",
           "Web.Domain": "1.0.0",
           "Web.Infrastructure": "1.0.0",
+          "Web.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2804,28 +2804,16 @@
         "dependencies": {
           "AutoMapper": "10.0.0",
           "Flee": "1.2.2",
-          "Web.BLL": "1.0.0",
           "Web.Dao": "1.0.0",
           "Web.Domain": "1.0.0",
-          "Web.Infrastructure": "1.0.0"
+          "Web.Infrastructure": "1.0.0",
+          "Web.Service": "1.0.0"
         },
         "runtime": {
           "Web.Application.dll": {}
         },
         "compile": {
           "Web.Application.dll": {}
-        }
-      },
-      "Web.BLL/1.0.0": {
-        "dependencies": {
-          "Web.Dao": "1.0.0",
-          "Web.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Web.BLL.dll": {}
-        },
-        "compile": {
-          "Web.BLL.dll": {}
         }
       },
       "Web.Dao/1.0.0": {
@@ -2869,6 +2857,18 @@
         },
         "compile": {
           "Web.Infrastructure.dll": {}
+        }
+      },
+      "Web.Service/1.0.0": {
+        "dependencies": {
+          "Web.Dao": "1.0.0",
+          "Web.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Web.Service.dll": {}
+        },
+        "compile": {
+          "Web.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5869,11 +5869,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Web.BLL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Web.Dao/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -5885,6 +5880,11 @@
       "sha512": ""
     },
     "Web.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Web.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
