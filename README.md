@@ -5,7 +5,7 @@
 2. 灵活自由的表对象设计方式，
 
 ## 演示
-http://demo.acctc.com/#/login 
+http://demo.acctc.com
 
 账号：admin 密码：admin 
 
