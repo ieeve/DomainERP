@@ -484,13 +484,13 @@
         </member>
         <member name="M:Web.Api.Controllers.Function.FunController.col2row">
             <summary>
-            工单工序行转成转成单行显示,废弃
+            行转成转成单行显示,废弃
             </summary>
             <returns></returns>
         </member>
         <member name="M:Web.Api.Controllers.Function.FunController.col2row_new(System.Int32)">
             <summary>
-            工单工序行转成转成单行显示 aps_knowledge->aps_productionline
+            行转成转成单行显示 aps_knowledge->aps_productionline
             </summary>
             <returns></returns>
         </member>
