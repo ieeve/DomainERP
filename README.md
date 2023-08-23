@@ -4,8 +4,8 @@
 
 2. 灵活自由的表对象设计方式，
 
-## 演示
-http://demo.acctc.com
+## 新版下载
+http://www.acctc.com
 
 账号：admin 密码：admin 
 
@@ -18,7 +18,7 @@ http://demo.acctc.com
 
 ## 使用
 
-启动应用后，在浏览器输入：http://你的IP地址:5678/ 
+启动应用后，在浏览器输入：http://你的IP地址:5000/ 
 
 初始管理员账号：admin 密码：admin 
 
